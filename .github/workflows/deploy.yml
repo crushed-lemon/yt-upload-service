@@ -31,6 +31,6 @@ jobs:
       - name : Instruct Azure Container App to pull this image
         run : |
           az containerapp update \
-            --name yt-upload-service-container-app \
+            --name yt-upload-service \
             --resource-group crushed-lemon-yt \
             --image ytbackend.azurecr.io/yt-upload-service:$NOW
