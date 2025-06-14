@@ -23,4 +23,4 @@ COPY . .
 EXPOSE 9000
 
 # Run the app (modify this line for your actual entrypoint)
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "9000"]
+CMD ["uvicorn", "app.src.main:app", "--host", "0.0.0.0", "--port", "9000"]

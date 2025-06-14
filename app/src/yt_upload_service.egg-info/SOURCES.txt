@@ -1,0 +1,10 @@
+pyproject.toml
+app/src/yt_upload_service.egg-info/PKG-INFO
+app/src/yt_upload_service.egg-info/SOURCES.txt
+app/src/yt_upload_service.egg-info/dependency_links.txt
+app/src/yt_upload_service.egg-info/top_level.txt
+app/src/accessors/__init__.py
+app/src/accessors/cosmosaccessor.py
+app/src/providers/__init__.py
+app/src/providers/idprovider.py
+app/src/yt_upload_service.egg-info/SOURCES.txt
