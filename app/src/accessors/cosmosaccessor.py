@@ -8,8 +8,6 @@ cosmos_client = CosmosClient(cosmos_url, credential)
 db_client = cosmos_client.get_database_client(cosmos_db)
 
 def read(container_name : str, key : str) :
-    print(container_name)
-    print(key)
     return db_client.get_container_client(container_name).read_item(item=key, partition_key=key)
 
 def create(container_name : str, value : dict) :
